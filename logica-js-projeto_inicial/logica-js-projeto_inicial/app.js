@@ -16,6 +16,7 @@ while (palpite != numeroSecreto){
             alert(`O número secreto é maior que ${palpite}`);
         }
     }
+    
     tentativa++;
 }
 let pluralVerifica = tentativa > 1 ? "tentativas" : "tentativa";
