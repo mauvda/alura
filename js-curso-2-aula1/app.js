@@ -28,7 +28,7 @@ function verificarChute() {
     verificaPlural = tentativas > 1 ? 'tentativas' : 'tentativa';
     chute == numeroSecreto ? exibirTextoNaTela('h1', `Acertou com ${tentativas} ${verificaPlural}`) + exibirTextoNaTela('p', 'O número secreto foi encontrado') 
         + document.getElementById('reiniciar').removeAttribute('disabled') 
-n       : chute > numeroSecreto ? exibirTextoNaTela('p', `O número secreto é menor que ${chute}`) 
+        : chute > numeroSecreto ? exibirTextoNaTela('p', `O número secreto é menor que ${chute}`) 
         : exibirTextoNaTela('p', `O número secreto é maior que ${chute}`);
     tentativas++;
     limparCampo();
