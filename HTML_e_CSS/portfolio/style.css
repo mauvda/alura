@@ -1,3 +1,10 @@
+/*
+Paleta de cores (https://coolors.co/454851-73956f-7bae7f-95d7ae-fceff9)
+Fontes (https://fonts.google.com/selection/embed)
+layout (https://www.figma.com/design/2tKSSnn47Wz1mD1Rh9HMds/Curso-1---HTML-e-CSS%3A-ambientes-de-desenvolvimento%2C-estrutura-de-arquivos-e-tags-%5BPortf%C3%B3lio%5D-(Community)-(Copy)?node-id=1-11&t=tG8JxPfo2htII9S4-0)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,15 +13,42 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background-color: #1F2421;
-    color: #DCE1DE;
+    background-color: #454851;
+    color: #FCEFF9;
 }
 
 .apresentacao {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin: 10%;
 }
 
 strong {
-    color: #49A078;
+    color: #7BAE7F;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+}
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Montserrat", serif;
+}
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: "Krona One", serif;
+}
+
+.apresentacao__conteudo__botao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo__botao__link {
+    background-color: #7BAE7F;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
 }
