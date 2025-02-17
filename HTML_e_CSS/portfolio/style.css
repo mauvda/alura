@@ -11,7 +11,7 @@ layout (https://www.figma.com/design/2tKSSnn47Wz1mD1Rh9HMds/Curso-1---HTML-e-CSS
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: #454851;
     color: #FCEFF9;
@@ -21,7 +21,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 10% 15%;
+    padding: 8% 15%;
 }
 
 strong {
@@ -62,8 +62,15 @@ strong {
     padding: 21,5px 0;
 }
 
+.apresentacao__conteudo__botao__link:hover {
+    background-color: #95D7AE;
+}
+
 .apresentacao__conteudo__botao__link {
     /* background-color: #7BAE7F; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
     border: 2px solid #7BAE7F;
     width: 378px;
     padding: 21.5px 0;
@@ -74,4 +81,13 @@ strong {
     font-size: 24px;
     font-weight: 600;
     font-family: "Montserrat", serif;
+}
+
+.rodape {
+    color: #454851;
+    background-color: #7BAE7F;
+    padding: 24px;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 24px;
 }
