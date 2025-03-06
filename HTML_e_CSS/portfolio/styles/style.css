@@ -49,6 +49,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 8% 15%;
+    gap: 82px;
 }
 
 .apresentacao__conteudo {
@@ -122,4 +123,23 @@ strong {
     text-align: center;
     font-family: var(--fonte-monstserrat);
     font-size: var(--fonte-texto);
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao__conteudo {
+        width: auto;
+    }
 }
